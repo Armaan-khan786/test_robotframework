@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "ARMAAN7876",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus13.actions.githubusercontent.com/33y6D9JhleeiQ1Fsmp6ENRoCcXk3SVL6IyWMYnMUVPie4R3PFS/",
+  "gitHubUrl": "https://github.com/Armaan-khan786/robot_frame_work",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
