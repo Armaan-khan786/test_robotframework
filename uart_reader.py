@@ -2,7 +2,8 @@ import serial
 import time
 
 def read_all_steps():
-    print("Python started reading COM7...")
+    print("Python started reading COM7...", flush=True)
+
     ser = serial.Serial("COM7", 115200, timeout=1)
     time.sleep(2)
 
@@ -13,7 +14,7 @@ def read_all_steps():
         if ser.in_waiting:
             line = ser.readline().decode(errors="ignore").strip()
             if line:
-                print(line)
+                print(line, flush=True)   # 🔥 Important for GitHub log
                 lines.append(line)
 
     ser.close()
