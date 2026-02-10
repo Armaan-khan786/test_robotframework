@@ -104,13 +104,14 @@ String steps[100] = {
 };
 
 void setup() {
-  mySerial.begin(9600, SERIAL_8N1, 16, 17);
-  delay(3000);
+mySerial.begin(9600, SERIAL_8N1, 16, 17);
+delay(3000);
 
-  for (int i = 0; i < 100; i++) {
-    mySerial.println(steps[i]);
-    delay(300);
-  }
+for (int i = 0; i < 100; i++) {
+mySerial.println(steps[i]);
+delay(300);
+}
 }
 
 void loop() {}
+
